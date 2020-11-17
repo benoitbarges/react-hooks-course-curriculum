@@ -39,7 +39,7 @@ export default class Posts extends React.Component {
   render() {
     const { posts, error, loading } = this.state
 
-    if (loading === true) {
+    if (true) {
       return <Loading />
     }
 

@@ -20,7 +20,7 @@ function App () {
       <ThemeProvider value={theme}>
         <div className={theme}>
           <div className='container'>
-            <Nav />
+            <Nav toggleTheme={toggleTheme}/>
 
             <React.Suspense fallback={<Loading />}>
               <Switch>
